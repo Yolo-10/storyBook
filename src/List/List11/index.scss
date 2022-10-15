@@ -1,4 +1,4 @@
-@label_bg:var(--clr-main);
+@import 'public/var.scss';
 
 .sc-list11{
   width: 100%;
@@ -28,7 +28,7 @@
     
       &>label{
         margin-left: 6px;
-        background-color: @label_bg;
+        background-color: var(--clr-main);
         padding: 1px 2px;
         color: #fff;
         border-radius: none;

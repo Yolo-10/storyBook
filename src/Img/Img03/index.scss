@@ -1,6 +1,6 @@
-@import '../../global.less';
-.sc-Img03 {
+@import 'public/var.scss';
 
+.sc-Img03 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -51,7 +51,8 @@
           color: gray;
           font-weight: bold;
           font-size: 1.4rem;
-          background-color: mix(@clr-main , #fff,20%);
+          //TODO:这里有个问题
+          // background-color: mix(@clr-main , #fff,20%);
           border-radius: 10px;
         }
 

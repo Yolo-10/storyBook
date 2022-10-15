@@ -1,4 +1,4 @@
-@main_co:var(--clr-main);
+$main_co:var(--clr-main);
 
 .sc-list12{
   width: 50%;
@@ -7,7 +7,7 @@
   margin:0 auto;
   
   .sc-title{
-    color:@main_co;
+    color:$main_co;
     border-bottom: none;
     justify-content: flex-start;
     margin: 15px 0;
@@ -20,7 +20,7 @@
   }
 
   .line{
-    border-left: 5px solid @main_co;
+    border-left: 5px solid $main_co;
     border-bottom: none;
   }
 
@@ -42,7 +42,7 @@
 
     .m-cnt-g1{
       font-size: 3.0rem;
-      color: @main_co;
+      color: $main_co;
       font-weight: 500;
       margin: .625rem 0;
     }
@@ -57,7 +57,7 @@
     }
 
     .m-cnt-g3{
-      color: @main_co;
+      color: $main_co;
       font-weight: 700;
     }
   }

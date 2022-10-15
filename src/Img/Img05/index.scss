@@ -1,4 +1,4 @@
-@bgColor:#eee;
+@import 'public/var.scss';
 
 .sc-img05 {
   width: 100%;
@@ -26,11 +26,6 @@
     &+div{
       margin: 10px 0;
     }
-  }
-
-  .bg{
-    background-color: @bgColor;
-    padding: 3px;
   }
 
   .m-cnt{

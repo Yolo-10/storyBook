@@ -16,7 +16,7 @@ const List10 =({background,color,line,title,link,list,lbLine})=> {
           <div className="m-item" key={i}>
 
             <div className="m-icon">
-              <img src={item?.icon} />
+              {item?.img && <img src={item?.icon} />}
             </div>
 
             <div className="m-cnt">

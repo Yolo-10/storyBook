@@ -5,10 +5,7 @@
 - list `array`: ITEM 对象
 - bgColor `bgColor`：背景颜色
 - line `boolean`: 标题栏目的显示模式
-- color `string`：底色的主色调(支持以下选择)
-  `blue` | `cyan` | `geekblue` | `gold` | `green`
-  `grey` | `lime` | `magenta` | `orange` 
-  `purple` | `red` | `volcano` | `yellow`
+- color `string`：底色的主色调
 
 ## ITEM
 - label `string`：一级标签
